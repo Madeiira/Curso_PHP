@@ -24,4 +24,6 @@ function controleIF($var1, $var2, $var3)
     }
 }
 
-
+function controleSwitch($var1,$var2,$var3){
+    
+}
