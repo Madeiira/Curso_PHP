@@ -43,7 +43,7 @@ function autoCast($var1,$var2){
 
 autoCast(5,2);
 
-function getType($var1,$var2){
+function getTypee($var1,$var2){
 
     echo $expressao = $var1 * $var2;
     echo "<br>";
@@ -53,9 +53,17 @@ function getType($var1,$var2){
 
 }
 
-getType("5",12);
+getTypee("5",12);
 
 
 
 //OPERADOR DE MODULO
 
+function operadorModulo($var1,$var2){
+
+    echo "Modulo: ". $modulo = $var1 % $var2;
+    echo "<br>";
+
+}
+
+operadorModulo(6,2);
