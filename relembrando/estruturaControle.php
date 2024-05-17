@@ -24,6 +24,19 @@ function controleIF($var1, $var2, $var3)
     }
 }
 
-function controleSwitch($var1,$var2,$var3){
+function controleSwitch($var1){
     
+
+    switch($var1){
+
+        case 0:
+            echo "Valor 0";
+            break;
+        case 1:
+            echo "Valor 1";
+            break;
+
+    }
+
+
 }
