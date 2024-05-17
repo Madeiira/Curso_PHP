@@ -229,3 +229,10 @@ menorIgual(2, 2);
 
 menorIgual(2, 1);
 echo "<br>";
+
+
+//OPERADORES LÓGICOS
+
+// && AND
+// || OR
+//  ! NOT
