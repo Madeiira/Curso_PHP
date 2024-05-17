@@ -134,7 +134,7 @@ function identico($var1, $var2)
 
 identico(2, "2");
 
-identico(2, 1);
+identico(2, 2);
 echo "<br>";
 
 function diferente($var1, $var2)
