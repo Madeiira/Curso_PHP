@@ -17,7 +17,11 @@ function controleIF($var1, $var2, $var3)
 
     if ($var1 > $var2) {
         if ($var3 == 0) {
-            echo "True IF IF";
+            echo "True IF Aninhado";
+        }else{
+            echo "False IF Aninhado";
         }
     }
 }
+
+
