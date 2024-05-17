@@ -269,3 +269,5 @@ function operadorNOT($var1){
 }
 
 operadorNOT(1);
+
+// OPERADOR CAST (CONVERSÃO)
