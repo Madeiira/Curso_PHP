@@ -271,3 +271,7 @@ function operadorNOT($var1){
 operadorNOT(1);
 
 // OPERADOR CAST (CONVERSÃO)
+// $var1  = (int) "34"; 
+// if($var1 === 34 ) = true
+
+
