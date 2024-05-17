@@ -275,15 +275,19 @@ operadorNOT(1);
 // if($var1 === 34 ) = true
 
 
-//OPERADORES DE ATRIBUIÇÃO
-// =
-// -=
-// +=
-// /=
-// *=
-/**
+/** OPERADORES DE ATRIBUIÇÃO
  * 
+ *=
+ * -=
+ * +=
+ * /=
+ * *= 
  * $var1 = 1
  * $var1 += 10 (11)
- * 
  */
+
+ /**
+  * OPERADOR TERNÁRIO
+  * echo 20 > 10 ? "TRUE"  
+  * echo 10 > 20 ? "FALSE"
+  */
