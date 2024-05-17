@@ -35,6 +35,8 @@ function controleSwitch($var1){
         case 1:
             echo "Valor 1";
             break;
+        default:
+            echo "nenhum valor encontrado";
 
     }
 
