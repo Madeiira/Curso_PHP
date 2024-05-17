@@ -236,3 +236,36 @@ echo "<br>";
 // && AND
 // || OR
 //  ! NOT
+
+function operadorAND($var1,$var2){
+ 
+    if($var1 >= 2 && $var2 <= 8){
+        echo "operador AND TRUE";
+        echo "<br><br>";
+    }
+
+}
+
+operadorAND(3,7);
+
+function operadorOR($var1,$var2){
+ 
+    if($var1 > 2 || $var2 <= 8){
+        echo "operador OR TRUE";
+        echo "<br><br>";
+    }
+
+}
+
+operadorOR(1,7);
+
+function operadorNOT($var1){
+ 
+    if(!($var1 >= 2)){
+        echo "operador NOT TRUE";
+        echo "<br><br>";
+    }
+
+}
+
+operadorNOT(1);
