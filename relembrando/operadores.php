@@ -67,3 +67,15 @@ function operadorModulo($var1,$var2){
 }
 
 operadorModulo(6,2);
+
+//Operador de exponenciação
+
+function operadorExponenciacao($var1,$var2){
+
+
+    echo "Exponenciação: ". $exponenciacao = $var1 ** $var2;
+    echo "<br>";
+
+}
+
+operadorExponenciacao(5,2);
