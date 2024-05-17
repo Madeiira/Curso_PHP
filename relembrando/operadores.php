@@ -275,3 +275,15 @@ operadorNOT(1);
 // if($var1 === 34 ) = true
 
 
+//OPERADORES DE ATRIBUIÇÃO
+// =
+// -=
+// +=
+// /=
+// *=
+/**
+ * 
+ * $var1 = 1
+ * $var1 += 10 (11)
+ * 
+ */
