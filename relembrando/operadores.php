@@ -161,9 +161,9 @@ function naoIdentico($var1, $var2)
     }
 }
 
-identico(2, "2");
+naoIdentico(2, "2");
 
-identico(2, 1);
+naoIdentico(2, 2);
 echo "<br>";
 
 function maior($var1, $var2)
