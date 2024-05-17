@@ -14,4 +14,9 @@ function controleIF($var1, $var2, $var3){
         echo "Else If";
     }
 
+    if ($var1 > $var2 ){
+        if($var3 == 0){
+            echo "True IF IF";
+        }
+     }
 }
