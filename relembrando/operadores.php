@@ -121,7 +121,7 @@ function igualdade($var1, $var2)
 
 igualdade(2, 2);
 
-igualdade(2, 1);
+igualdade(2, "2");
 echo "<br>";
 
 function identico($var1, $var2)
