@@ -33,24 +33,28 @@ echo "<br>";
 
 //AUTOCAST
 
-$var1 = 5.9;
-$var2 = 2;
+function autoCast($var1,$var2){
 
-echo $divisao = ceil($var1 / $var2);
+    echo $divisao = $var1 / $var2; //ceil() para arredondar para cima
+    echo "<br>";
 
-echo "<br>";
+}
 
-echo $divisao = $var1 / $var2;
 
-$expressao = "5" * 12;
+autoCast(5,2);
 
-echo "<br>";
+function getType($var1,$var2){
 
-echo "Resultado: ". $expressao;
+    echo $expressao = $var1 * $var2;
+    echo "<br>";
 
-echo "<br>";
+    echo "gettype: ". gettype($expressao);
+    echo "<br>";
 
-echo "gettype: ". gettype($expressao);
+}
+
+getType("5",12);
+
 
 
 //OPERADOR DE MODULO
