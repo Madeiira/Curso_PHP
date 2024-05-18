@@ -31,3 +31,23 @@ function estruturaWhileArr($arr1){
 }
 
 estruturaWhileArr([1,2,3,4,5,6,7,8,9,10]);
+echo"<br>";
+function estruturaWhileBreak($arr1){
+    
+    $count1 = count($arr1);
+    $cont   = 0;
+    echo "Procurando string no array<br>";
+    while ($cont < $count1){
+        if(is_string($arr1[$cont])){
+            echo "String encontrada no array<br>";
+            echo "String: ". $arr1[$cont] ."<br>na key: ". $cont;
+            break;
+        }
+        echo "Varlor array: ". $arr1[$cont] ." Key:". $cont ."<br>"  ;
+     $cont++;
+    }
+
+}
+
+estruturaWhileBreak([1,2,3,4,5,"String",7,8,9,10]);
+
