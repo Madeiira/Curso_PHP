@@ -15,3 +15,19 @@ function estruturaWhile($var1){
 }
 
 estruturaWhile(0);
+
+
+function estruturaWhileArr($arr1){
+
+    $count1 = count($arr1);
+    $x = 0;
+    echo "Contagem Array <br>";
+    while($x < $count1){
+        echo "Valor: ". $arr1[$x];
+        echo "<br>";
+        $x++;
+    }
+
+}
+
+estruturaWhileArr([1,2,3,4,5,6,7,8,9]);
