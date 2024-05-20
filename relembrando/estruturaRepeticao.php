@@ -51,3 +51,29 @@ function estruturaWhileBreak($arr1){
 
 estruturaWhileBreak([1,2,3,4,5,"String",7,8,9,10]);
 
+
+echo "<br>";
+
+function estruturaWhileAninahdo(){
+    
+    $cont   = 0;
+    echo "Procurando string no array<br>";
+    while ($cont < 5){
+
+        echo "loop externo $cont <br>";
+        //segundo contador 
+        $cont2   = 0;
+        //loop aninhado
+        while ($cont2 < 3){
+            echo "loop interno $cont2 <br>";
+            $cont2++;
+        }
+
+     $cont++;
+    }
+
+}
+
+estruturaWhileAninahdo();
+
+
