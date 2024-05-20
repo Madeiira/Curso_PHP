@@ -95,3 +95,18 @@ function estruturaWhileContinue(){
 }
 
 estruturaWhileContinue();
+
+
+function estruturaDoWhile(){
+
+    $i = 0;
+
+    do{
+        echo "Testando While ".$i;
+        echo "<br>";
+        $i++;
+    }while($i <= 10);
+
+}
+
+estruturaDoWhile();
