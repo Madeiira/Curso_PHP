@@ -77,3 +77,21 @@ function estruturaWhileAninahdo(){
 estruturaWhileAninahdo();
 
 
+function estruturaWhileContinue(){
+
+    $i = 10;
+    while($i >= 0){
+        if ($i % 2 != 0){
+            echo "Continue Impares: ".$i;
+            echo "<br>";
+            $i--;
+        }
+        
+        echo "Fora do continue Pares:". $i;
+        echo "<br>";
+        $i--;
+    }
+
+}
+
+estruturaWhileContinue();
