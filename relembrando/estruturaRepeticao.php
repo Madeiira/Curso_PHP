@@ -125,3 +125,19 @@ function estruturaFor($arr1){
 }
 
 estruturaFor([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]);
+
+function estruturaForArrayPush($arrayTamanho){
+    
+    $arr1 = [];
+
+
+    for ($i=1; $i <= $arrayTamanho; $i++) { 
+        
+        array_push($arr1, $i);
+        
+    }
+    print_r($arr1);
+    
+}
+
+estruturaForArrayPush(10);
