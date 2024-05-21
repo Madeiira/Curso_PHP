@@ -6,15 +6,16 @@ function estruturaWhile($var1){
 
 
     while($var1 <= 10){
-        if ($var1 % 2 !=0)
+        if ($var1 % 2 !=0){
         echo "Impares: ".$var1; 
         echo "<br>";
+        }
         $var1++;
     }
 
 }
 
-estruturaWhile(0);
+// estruturaWhile(0);
 
 
 function estruturaWhileArr($arr1){
@@ -30,8 +31,8 @@ function estruturaWhileArr($arr1){
 
 }
 
-estruturaWhileArr([1,2,3,4,5,6,7,8,9,10]);
-echo"<br>";
+// estruturaWhileArr([1,2,3,4,5,6,7,8,9,10]);
+
 function estruturaWhileBreak($arr1){
     
     $count1 = count($arr1);
@@ -49,10 +50,8 @@ function estruturaWhileBreak($arr1){
 
 }
 
-estruturaWhileBreak([1,2,3,4,5,"String",7,8,9,10]);
-
-
-echo "<br>";
+// estruturaWhileBreak([1,2,3,4,5,"String",7,8,9,10]);
+// echo "<br>";
 
 function estruturaWhileAninahdo(){
     
@@ -74,7 +73,7 @@ function estruturaWhileAninahdo(){
 
 }
 
-estruturaWhileAninahdo();
+// estruturaWhileAninahdo();
 
 
 function estruturaWhileContinue(){
@@ -94,7 +93,7 @@ function estruturaWhileContinue(){
 
 }
 
-estruturaWhileContinue();
+// estruturaWhileContinue();
 
 
 function estruturaDoWhile(){
@@ -109,4 +108,20 @@ function estruturaDoWhile(){
 
 }
 
-estruturaDoWhile();
+// estruturaDoWhile();
+
+
+function estruturaFor($arr1){
+
+    for ($i=0; $i < count($arr1); $i++) { 
+        
+        if ($arr1[$i] % 2 == 0){
+            echo "Numero par do array". $arr1[$i];
+            echo "<br>";
+        }
+
+    }
+    
+}
+
+estruturaFor([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]);
