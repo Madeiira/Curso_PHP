@@ -2,7 +2,7 @@
 
 // Iniciando Relembrando Includes
 
-// Método include "includes/exemplo.php";
+// Método include "includes/php/exemplo.php";
 
 // echo "<p> após o include </p> <br> $var1"; 
 
@@ -19,7 +19,10 @@
 
 // Ele gera fatal error
 
-require "includes/require.php";
+require "includes/php/require_functions.php";
+require "includes/html/require_html.html";
+
+exemploRequire("Texto Require PHP Function");
 
 
 
