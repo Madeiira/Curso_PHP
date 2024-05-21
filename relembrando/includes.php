@@ -16,5 +16,10 @@
 // PARA WORDPRESS TEM OUTRA FORMA
 
 // Método Require
-?>
+
+// Ele gera fatal error
+
+require "includes/require.php";
+
+
 
