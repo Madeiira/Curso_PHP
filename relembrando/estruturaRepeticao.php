@@ -137,7 +137,20 @@ function estruturaForArrayPush($arrayTamanho){
         
     }
     print_r($arr1);
-    
+    echo "<br>";
 }
 
 estruturaForArrayPush(10);
+
+
+function estruturaForEach($models){
+
+    foreach ($models as $key => $model) {
+        
+        echo "Modelos dentro do array: ". $model . "<br>";
+        echo "Chave do indice: $key <br> <br>";
+    }
+
+}
+
+estruturaForEach(["Renault","Ford","Ferrari","Toyota"]);
