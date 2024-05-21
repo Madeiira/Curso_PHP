@@ -1,8 +1,8 @@
 <?php
 
-//  Iniciando Relembrando Includes
+// Iniciando Relembrando Includes
 
-// include "includes/exemplo.php";
+// Método include "includes/exemplo.php";
 
 // echo "<p> após o include </p> <br> $var1"; 
 
@@ -15,6 +15,6 @@
 
 // PARA WORDPRESS TEM OUTRA FORMA
 
-
+// Método Require
 ?>
 
