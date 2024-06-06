@@ -19,8 +19,13 @@
 
 // Ele gera fatal error
 
-require "includes/php/require_functions.php";
-require "includes/html/require_html.html";
+// require "includes/php/require_functions.php";
+// require "includes/html/require_html.html";
+
+// com o _once apenas permite a include o ou require uma vez de um mesmo arquivo 
+include_once "includes/php/require_functions.php";
+require_once "includes/html/require_html.html"; 
+
 
 exemploRequire("Texto Require PHP Function");
 
